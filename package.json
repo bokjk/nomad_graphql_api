@@ -1,0 +1,23 @@
+{
+  "name": "nomad_graphql_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bokjk/nomad_graphql_api.git",
+  "author": "jkBOK",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.17.4",
+    "node-fetch": "^2.5.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "babel-core": "^6.26.3",
+    "nodemon": "^1.18.11"
+  }
+}
