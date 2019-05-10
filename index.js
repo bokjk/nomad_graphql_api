@@ -7,7 +7,7 @@ var _resolvers = _interopRequireDefault(require("./resolvers"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var server = new _graphqlYoga.GraphQLServer({
-  typeDefs: "./schema.graphql",
+  typeDefs: "./graphql/schema.graphql",
   resolvers: _resolvers["default"]
 });
 server.start(function () {
