@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "nodemon --exec babel-node ./graphql/index.js",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "babel graphql --out-dir build"
   },
