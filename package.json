@@ -13,7 +13,7 @@
     "node-fetch": "^2.5.0"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node /graphql/index.js",
+    "start": "nodemon --exec babel-node ./graphql/index.js",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "build": "babel graphql --out-dir build"
